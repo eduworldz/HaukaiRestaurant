@@ -20,8 +20,14 @@
 }
 .column {
     display: table-cell;
+    float: left;
     padding: 10px;
     width: 50%;
     background-color: rgb(0, 255, 157);
 }
-
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
