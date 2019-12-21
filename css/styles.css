@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+p {
+    font-family: "Verdana, Geneva, sans-serif";
+  }
 .responsive {
     max-width: 100%;
     height: auto;
