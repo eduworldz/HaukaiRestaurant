@@ -4,6 +4,12 @@
 p {
     font-size: 2vmin;
 }
+h1 {
+    font-size: 5.9vw;
+}
+h2 {
+    font-size: 3.0vh;
+}
 .header {
     background-color:rgba(3, 73, 3, 0.822);
     font-size: 3vw;
