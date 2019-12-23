@@ -4,10 +4,10 @@
 html {
     font-family: Verdana, Geneva, sans-serif;
   }
-.responsive {
-    max-width: 100%;
-    height: auto;
-  }
+  .responsive {
+      max-width: 100%;
+      height: auto;
+    }
 a:hover {  /* highlights nav menu links on hover */
 	color: red;
 }
@@ -21,12 +21,16 @@ p.caps-larger { /* use for class of food menu items */
     font-variant: small-caps;
     font-size: 200%;
 }
+img.food { /* use for float picture next to the food menu items */
+    float: left;
+    display: block;
+  }
 .header {
     background-color:rgba(3, 73, 3, 0.822);
     font-size: 3vw;
     text-align: center;
     padding: 0.5vw;
-    width: 100%;
+    width: 100%; 
 }
 .nav {
     border: 2px solid black;
@@ -36,7 +40,8 @@ p.caps-larger { /* use for class of food menu items */
 	padding-right: 5px;
 	padding-bottom: 5px;
 	padding-left: 5px;
-    width: 100%;
+    width: 100%; 
+    display: inline-block;
 }
 .col-container {
     display: table;
@@ -50,11 +55,25 @@ p.caps-larger { /* use for class of food menu items */
 }
 @media screen and (max-width:600px) {
     .column {
-        width: 100%;
+    width:100%;
     }
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+}
+.center {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+  }
+.footer {
+    text-align: center;
+    font-size: 75%;
+}
+.split-para { 
+    display:block;
+    margin:10px;
+}
+.split-para span { 
+    display:block;
+    float:right;
+    width:10%;
+    margin-left:10px;
 }
