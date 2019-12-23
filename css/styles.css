@@ -51,7 +51,7 @@ img.food { /* use for float picture next to the food menu items */
     display: table-cell;
     padding: 10px;
     width: 50%;
-    background-color: rgb(95, 241, 185);
+    background-color: rgb(178, 243, 218);
 }
 @media screen and (max-width:600px) {
     .column {
