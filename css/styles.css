@@ -4,7 +4,7 @@
 html {
     font-family: Verdana, Geneva, sans-serif;
   }
-  .responsive {
+  .responsive { /* for responsive images */
       max-width: 100%;
       height: auto;
     }
@@ -30,7 +30,7 @@ img.food { /* use for float picture next to the food menu items */
     font-size: 3vw;
     text-align: center;
     padding: 0.5vw;
-    width: 100%; 
+    width: 100%;
 }
 .nav {
     border: 2px solid black;
@@ -40,12 +40,12 @@ img.food { /* use for float picture next to the food menu items */
 	padding-right: 5px;
 	padding-bottom: 5px;
 	padding-left: 5px;
-    width: 100%; 
+    width: 100%;
     display: inline-block;
 }
 .col-container {
     display: table;
-    width: 100%; 
+    width: 100%;
 }
 .column {
     display: table-cell;
@@ -67,11 +67,11 @@ img.food { /* use for float picture next to the food menu items */
     text-align: center;
     font-size: 75%;
 }
-.split-para { 
+.split-para { /* used on my food menu items to align the price to the right on the same line */
     display:block;
     margin:10px;
 }
-.split-para span { 
+.split-para span {
     display:block;
     float:right;
     width:10%;
