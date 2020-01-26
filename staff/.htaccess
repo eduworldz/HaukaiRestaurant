@@ -1,4 +1,4 @@
 AuthType Basic
 	AuthName "Restricted access"
-	AuthUserFile "aqueous-cliffs-20182.herokuapp.com/.htpasswd"
+	AuthUserFile "../../.htpasswd"
 	Require valid-user
